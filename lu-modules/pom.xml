@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>lu</artifactId>
+        <groupId>com.iyongye</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>lu-modules</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>lu-modules-bom</module>
+        <module>lu-system</module>
+        <module>lu-portal</module>
+    </modules>
+
+    <dependencies>
+        <!-- 公共核心模块 -->
+        <dependency>
+            <groupId>com.iyongye</groupId>
+            <artifactId>lu-common-redis</artifactId>
+        </dependency>
+        <!-- 动态数据源 -->
+        <dependency>
+            <groupId>com.iyongye</groupId>
+            <artifactId>lu-common-datasource</artifactId>
+        </dependency>
+        <!-- mybatis模块 -->
+        <dependency>
+            <groupId>com.iyongye</groupId>
+            <artifactId>lu-common-log</artifactId>
+        </dependency>
+        <!-- swgger -->
+        <dependency>
+            <groupId>com.iyongye</groupId>
+            <artifactId>lu-common-swgger</artifactId>
+        </dependency>
+    </dependencies>
+</project>

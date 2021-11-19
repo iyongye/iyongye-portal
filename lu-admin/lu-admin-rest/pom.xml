@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>lu-admin</artifactId>
+        <groupId>com.iyongye</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>lu-admin-rest</artifactId>
+    <description>admin接口服务</description>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <!-- 系统核心模块 -->
+        <dependency>
+            <groupId>com.iyongye</groupId>
+            <artifactId>lu-system</artifactId>
+        </dependency>
+
+        <!-- web -->
+        <dependency>
+            <groupId>com.iyongye</groupId>
+            <artifactId>lu-common-web</artifactId>
+        </dependency>
+
+        <!-- 代码生成模块 -->
+        <dependency>
+            <groupId>com.iyongye</groupId>
+            <artifactId>lu-generator</artifactId>
+        </dependency>
+
+        <!-- 定时任务模块 -->
+        <dependency>
+            <groupId>com.iyongye</groupId>
+            <artifactId>lu-quartz</artifactId>
+        </dependency>
+        <!-- spring-boot-devtools -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional> <!-- 表示依赖不会传递 -->
+        </dependency>
+
+    </dependencies>
+
+</project>
