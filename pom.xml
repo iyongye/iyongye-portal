@@ -5,22 +5,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.iyongye</groupId>
-    <artifactId>lu</artifactId>
+    <artifactId>iyongye-portal</artifactId>
     <version>1.0.0</version>
     <name>${project.artifactId}</name>
     <packaging>pom</packaging>
 
     <modules>
-        <module>lu-common</module>
-        <module>lu-modules</module>
-        <module>lu-generator</module>
-        <module>lu-quartz</module>
-        <module>lu-admin</module>
-        <module>lu-application-web</module>
+        <module>iyongye-common</module>
+        <module>iyongye-modules</module>
+        <module>iyongye-generator</module>
+        <module>iyongye-quartz</module>
+        <module>iyongye-application-web</module>
     </modules>
 
     <properties>
-        <lu.version>1.0.0</lu.version>
+        <iyongye.version>1.0.0</iyongye.version>
         <java.version>1.8</java.version>
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
         <bitwalker.version>1.21</bitwalker.version>
@@ -48,8 +47,8 @@
             <!-- 公共模块 -->
             <dependency>
                 <groupId>com.iyongye</groupId>
-                <artifactId>lu-common-bom</artifactId>
-                <version>${lu.version}</version>
+                <artifactId>iyongye-common-bom</artifactId>
+                <version>${iyongye.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -57,8 +56,8 @@
             <!-- 功能模块 -->
             <dependency>
                 <groupId>com.iyongye</groupId>
-                <artifactId>lu-modules-bom</artifactId>
-                <version>${lu.version}</version>
+                <artifactId>iyongye-modules-bom</artifactId>
+                <version>${iyongye.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -66,15 +65,15 @@
             <!-- 代码生成模块 -->
             <dependency>
                 <groupId>com.iyongye</groupId>
-                <artifactId>lu-generator</artifactId>
-                <version>${lu.version}</version>
+                <artifactId>iyongye-generator</artifactId>
+                <version>${iyongye.version}</version>
             </dependency>
 
             <!-- 定时任务模块 -->
             <dependency>
                 <groupId>com.iyongye</groupId>
-                <artifactId>lu-quartz</artifactId>
-                <version>${lu.version}</version>
+                <artifactId>iyongye-quartz</artifactId>
+                <version>${iyongye.version}</version>
             </dependency>
 
 
