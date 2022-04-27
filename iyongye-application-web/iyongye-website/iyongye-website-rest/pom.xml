@@ -12,17 +12,18 @@
     <artifactId>iyongye-website-rest</artifactId>
 
     <dependencies>
+        <!-- 网站逻辑层 -->
         <dependency>
             <groupId>com.iyongye</groupId>
             <artifactId>iyongye-website-biz</artifactId>
             <version>1.0.0</version>
         </dependency>
         <!-- beetl引擎模版 -->
-        <dependency>
-            <groupId>com.ibeetl</groupId>
-            <artifactId>beetl</artifactId>
-            <version>3.1.8.RELEASE</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.ibeetl</groupId>-->
+<!--            <artifactId>beetl</artifactId>-->
+<!--            <version>3.1.8.RELEASE</version>-->
+<!--        </dependency>-->
 
         <!-- spring-boot-devtools -->
         <dependency>

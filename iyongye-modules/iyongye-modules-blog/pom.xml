@@ -11,6 +11,7 @@
 
     <artifactId>iyongye-modules-blog</artifactId>
     <description>博客模块</description>
+    <packaging>jar</packaging>
 
 
 </project>

@@ -1,7 +1,7 @@
 # 项目相关配置
 lu:
   # 名称
-  name: lu-portal-iyongye
+  name: iyongye-portal
   # 版本
   version: 1.0.0
   # 版权年份
@@ -9,7 +9,7 @@ lu:
   # 实例演示开关
   demoEnabled: true
   # 文件路径 示例（ Windows配置D:/ruoyi/uploadPath，Linux配置 /home/ruoyi/uploadPath）
-  profile: /opt/lu/portal/uploadPath
+  profile: /opt/iyongye/portal/uploadPath
   # 获取ip地址开关
   addressEnabled: false
   # 验证码类型 math 数组计算 char 字符验证
@@ -115,8 +115,8 @@ xss:
   urlPatterns: /system/*,/monitor/*,/tool/*
 
 # beetl模版引擎模版
-beetlsql:
-  enabled: false
-beetl:
-  suffix: html
-  templatesPath: templates
+#beetlsql:
+#  enabled: false
+#beetl:
+#  suffix: html
+#  templatesPath: templates
